@@ -1,4 +1,6 @@
 # Changelog
+July 25, 2021
+- Disable hibernation and use normal sleep because hibernation fails sometimes.
 
 As of May 30, 2021
 - QE/CI works with HD 7750.
