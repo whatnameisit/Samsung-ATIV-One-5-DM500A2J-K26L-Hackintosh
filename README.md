@@ -36,6 +36,15 @@
 1. Follow the directions found in [this](https://www.win-raid.com/t892f16-AMD-and-Nvidia-GOP-update-No-requests-DIY.html) thread.
 - Note: The ROM images in this repository are specifically for Sapphire HD 7750 1GB with device-id 1002:683F and subsystem-id 174B:E213. Follow the update method for your own card.
 
+## Steps to install
+1. Read [Configuration.pdf](https://github.com/acidanthera/OpenCorePkg/blob/master/Docs/Configuration.pdf).
+2. Read [Dortania guides](https://dortania.github.io/getting-started/).
+3. Prepare USB drive with macOS installer mounted on it.
+4. Download this repository and copy and paste the OC and BOOT folders to USB EFI partition.
+5. Boot into USB and select macOS installer and install.
+6. Mount EFI and copy USB EFI to the system EFI partition.
+7. Replace the numbers in SMBIOS.
+
 ## Other models
 If you have a variant such as DM500A2J-K30D, K32D, or K38D, you will notice that the CPU is an i3 model. Lucky you. A lot of fun things could be done.
   1. Delete the kernel patch `Fake CPUID` and enjoy native power management and advanced CPU features.
