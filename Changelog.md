@@ -1,4 +1,7 @@
 # Changelog
+August 1, 2021
+- Deleted Wireless USB Big Sur Adapter because the USB dongle is very unstable.
+
 July 25, 2021
 - Disable hibernation and use normal sleep because hibernation fails sometimes.
 
