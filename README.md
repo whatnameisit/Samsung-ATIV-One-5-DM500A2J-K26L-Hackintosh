@@ -39,7 +39,8 @@
 
 ## Updating VBIOS with GOP driver
 1. Follow the directions found in [this](https://www.win-raid.com/t892f16-AMD-and-Nvidia-GOP-update-No-requests-DIY.html) thread.
-- Note: The ROM images in this repository are specifically for Sapphire HD 7750 1GB with device-id 1002:683F and subsystem-id 174B:E213. Follow the update method for your own card.
+- Note 1: This step is only required for dGPUs with legacy ROMs. If you have a model that is manufactured relatively recently, you would not need to follow this step. Check online.
+- Note 2: The ROM images in this repository are specifically for Sapphire HD 7750 1GB with device-id 1002:683F and subsystem-id 174B:E213. Follow the update method for your own card.
 
 ## Steps to install
 1. Read [Configuration.pdf](https://github.com/acidanthera/OpenCorePkg/blob/master/Docs/Configuration.pdf).
