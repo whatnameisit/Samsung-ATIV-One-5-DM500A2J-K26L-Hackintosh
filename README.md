@@ -17,6 +17,11 @@
 | SD Card Reader | Realtek USB Card Reader RTS5129 *(Limited support)* |
 | UEFI BIOS | Aptio Setup Utility P05AEK |
 
+##  Before you begin
+### Hardware and UEFI mods required
+1. eGPU is required for graphics acceleration.
+2. UEFI mod is required to route output from iGPU to eGPU at UEFI setup and OpenCore bootpicker.
+
 ## UEFI setup
 ### Using modded Aptio Setup Utility image
 1. Learn how to flash AMI UEFI. This may brick the computer, so I don’t recommend it unless you understand the consequences and know how to unbrick in case something goes wrong.
