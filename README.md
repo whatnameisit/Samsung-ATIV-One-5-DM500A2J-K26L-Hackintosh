@@ -50,7 +50,7 @@ If you have a variant such as DM500A2J-K30D, K32D, or K38D, you will notice that
   1. Delete the kernel patch `Fake CPUID` and enjoy native power management and advanced CPU features.
   2. Inject a working `ig-platform-id` and `SSDT-PNLF` found in OpenCorePkg bundle for working iGPU QE/CI and native brightness control. Test the HDMI-out and configure the framebuffer.
   3. Change `SMBIOS` to iMac14,4 which is an iGPU-only model. You can update to Big Sur with no problem. You still have DRM and sound noise issues.
-  4. Insert BCM94360 variants into mini PCIe. There are three antennas on the mainboard: two from Atheros AR9565 / AR3012 and one from TV Tuner Card originally on mini PcIe slot. All share the form factor of U.FL. Although there are many other options, I would recommend BCM943602CS with adapters and antennas, so that both Wi-Fi and Bluetooth are natively supported with full Apple Airport features and full speed.
+  4. Insert BCM94360 variants into mini PCIe. There are three antennas on the mainboard: two from Atheros AR9565 / AR3012 and one from TV Tuner Card originally on mini PcIe slot. All share the form factor of U.FL. Although there are many other options, I would recommend BCM943602CS with adapters and antennas, so that both Wi-Fi and Bluetooth are natively supported with full Apple Airport features and full speed. The adapters are shown in [Bluetooth enhancement](#bluetooth-enhancement).
   5. Study and create an AppleALC layout and fix sound noise.
 
 ## Bluetooth enhancement
