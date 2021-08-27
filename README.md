@@ -14,7 +14,7 @@
 | Ethernet | Realtek RTL8168 Gigabit Ethernet Controller |
 | Wi-Fi / Bluetooth | No Wi-Fi / BCM20702 Hub from BCM94360CS2 with multiple adapters to USB A *(Disabled stock QCA9565)* |
 | Audio | Realtek ALC282 |
-| SD Card Reader | Realtek USB Card Reader RTS5129 *(kext in development)* |
+| SD Card Reader | Realtek USB Card Reader RTS5129 |
 | UEFI BIOS | Aptio Setup Utility P05AEK |
 
 ##  Before you begin
