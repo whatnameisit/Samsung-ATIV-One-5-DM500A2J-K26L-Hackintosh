@@ -917,7 +917,7 @@
 			<key>ScanPolicy</key>
 			<integer>0</integer>
 			<key>SecureBootModel</key>
-			<string>j137</string>
+			<string>x86legacy</string>
 			<key>Vault</key>
 			<string>Optional</string>
 		</dict>
@@ -1107,6 +1107,8 @@
 		<key>Drivers</key>
 		<array>
 			<dict>
+				<key>Comment</key>
+				<string></string>
 				<key>Path</key>
 				<string>OpenRuntime.efi</string>
 				<key>Enabled</key>
@@ -1115,6 +1117,8 @@
 				<string></string>
 			</dict>
 			<dict>
+				<key>Comment</key>
+				<string></string>
 				<key>Path</key>
 				<string>ExFatDxeLegacy.efi</string>
 				<key>Enabled</key>
@@ -1123,6 +1127,8 @@
 				<string></string>
 			</dict>
 			<dict>
+				<key>Comment</key>
+				<string></string>
 				<key>Path</key>
 				<string>HfsPlusLegacy.efi</string>
 				<key>Enabled</key>
@@ -1131,6 +1137,8 @@
 				<string></string>
 			</dict>
 			<dict>
+				<key>Comment</key>
+				<string></string>
 				<key>Path</key>
 				<string>OpenCanopy.efi</string>
 				<key>Enabled</key>
@@ -1139,6 +1147,8 @@
 				<string></string>
 			</dict>
 			<dict>
+				<key>Comment</key>
+				<string></string>
 				<key>Path</key>
 				<string>OpenLinuxBoot.efi</string>
 				<key>Enabled</key>
@@ -1147,6 +1157,8 @@
 				<string></string>
 			</dict>
 			<dict>
+				<key>Comment</key>
+				<string></string>
 				<key>Path</key>
 				<string>ext4_x64.efi</string>
 				<key>Enabled</key>
